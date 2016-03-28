@@ -4,7 +4,7 @@ namespace studio24\PubSub;
 /**
  * Class to manage task running, uses the PubSub design pattern
  *
- * @package S24\Atomic\Service
+ * @package studio24\PubSub
  */
 class PubSub
 {
