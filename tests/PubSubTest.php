@@ -5,7 +5,8 @@ use studio24\PubSub\PubSub;
 class PubSubTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * @expectedException PHPUnit_Framework_Error
+     * @requires PHP 7.0
+     * @expectedException TypeError
      */
     public function testException()
     {
