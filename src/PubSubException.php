@@ -1,5 +1,5 @@
 <?php
-namespace studio24\PubSub;
+namespace Studio24\PubSub;
 
 class PubSubException extends \Exception
 {

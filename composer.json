@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "studio24\\PubSub\\": "src/"
+            "Studio24\\PubSub\\": "src/"
         }
     },
     "require-dev": {

@@ -13,7 +13,7 @@ composer require studio24/pubsub
 Import at the top of your PHP script via:
 
 ```sh
-use studio24\PubSub\PubSub;
+use Studio24\PubSub\PubSub;
 ```
 
 ### Add a task to run at a certain event (subscribe)

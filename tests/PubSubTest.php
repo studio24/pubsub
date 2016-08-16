@@ -1,6 +1,6 @@
 <?php
 
-use studio24\PubSub\PubSub;
+use Studio24\PubSub\PubSub;
 
 class PubSubTest extends PHPUnit_Framework_TestCase {
 
@@ -68,7 +68,7 @@ class PubSubTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * @expectedException \studio24\PubSub\PubSubException
+     * @expectedException \Studio24\PubSub\PubSubException
      */
     public function testInvalidEventNameEmptyString()
     {
@@ -76,7 +76,7 @@ class PubSubTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * @expectedException \studio24\PubSub\PubSubException
+     * @expectedException \Studio24\PubSub\PubSubException
      */
     public function testInvalidEventNameInt()
     {
@@ -84,7 +84,7 @@ class PubSubTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * @expectedException \studio24\PubSub\PubSubException
+     * @expectedException \Studio24\PubSub\PubSubException
      */
     public function testInvalidEventNameArray()
     {
@@ -92,7 +92,7 @@ class PubSubTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * @expectedException \studio24\PubSub\PubSubException
+     * @expectedException \Studio24\PubSub\PubSubException
      */
     public function testInvalidEventNameBool()
     {
@@ -100,7 +100,7 @@ class PubSubTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * @expectedException \studio24\PubSub\PubSubException
+     * @expectedException \Studio24\PubSub\PubSubException
      */
     public function testInvalidEventNameEmptyString2()
     {
